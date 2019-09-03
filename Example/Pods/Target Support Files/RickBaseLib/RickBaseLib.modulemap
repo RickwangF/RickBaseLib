@@ -1,0 +1,6 @@
+framework module RickBaseLib {
+  umbrella header "RickBaseLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

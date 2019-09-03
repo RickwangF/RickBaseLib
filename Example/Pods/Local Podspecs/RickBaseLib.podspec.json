@@ -1,0 +1,22 @@
+{
+  "name": "RickBaseLib",
+  "version": "0.1.0",
+  "summary": "A short description of RickBaseLib.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wangweiyu/RickBaseLib",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wangweiyu": "woshiwwy16@126.com"
+  },
+  "source": {
+    "git": "https://github.com/wangweiyu/RickBaseLib.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RickBaseLib/Classes/**/*"
+}

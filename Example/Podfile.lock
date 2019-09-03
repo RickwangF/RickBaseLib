@@ -1,0 +1,16 @@
+PODS:
+  - RickBaseLib (0.1.0)
+
+DEPENDENCIES:
+  - RickBaseLib (from `../`)
+
+EXTERNAL SOURCES:
+  RickBaseLib:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RickBaseLib: 1ddba1b8e809c98d79ad0ba8829ad5bb9ae54927
+
+PODFILE CHECKSUM: 020618d785f5afac011e187660e06e1da2ebfa5c
+
+COCOAPODS: 1.7.4
