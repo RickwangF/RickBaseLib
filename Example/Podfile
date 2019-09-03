@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'RickBaseLib_Example' do
+  pod 'RickBaseLib', :path => '../'
+
+  target 'RickBaseLib_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
