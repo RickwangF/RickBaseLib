@@ -1,6 +1,6 @@
 //
 //  NSString+Tool.h
-//  RickBaseLib
+//  BaseLib
 //
 //  Created by Rick on 2019/8/31.
 //  Copyright © 2019 Rick. All rights reserved.
@@ -38,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
     
 #pragma mark - Util
     
-+ (BOOL)isEmpty:(NSString *)string;
++ (BOOL)isEmptyString:(id)string;
 
 + (instancetype)newUUID;
     

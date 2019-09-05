@@ -1,6 +1,6 @@
 //
 //  NSString+Tool.m
-//  RickBaseLib
+//  BaseLib
 //
 //  Created by Rick on 2019/8/31.
 //  Copyright © 2019 Rick. All rights reserved.
@@ -13,12 +13,13 @@
     
 #pragma mark - Util
 
-+ (BOOL)isEmpty:(NSString *)string{
-    if (string == nil || ![string isKindOfClass:NSString.class]) {
++ (BOOL)isEmptyString:(id)string{
+    if (string == nil || string == [NSNull null] || ![string isKindOfClass:NSString.class]) {
         return YES;
     }
     
-    if ([string isEqualToString:@""] || string.trimmedString.length == 0) {
+    NSString *strongIns = (NSString *)string;
+    if ([strongIns isEqualToString:@""] || strongIns.trimmedString.length == 0) {
         return YES;
     }
     
@@ -174,7 +175,7 @@
 #pragma mark - Encrypt
 
 - (NSString *)md5Encrpt{
-    if ([NSString isEmpty:self]) {
+    if ([NSString isEmptyString:self]) {
         return nil;
     }
     

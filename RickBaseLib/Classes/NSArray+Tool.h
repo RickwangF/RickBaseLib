@@ -1,8 +1,8 @@
 //
-//  NSDictionary+Tool.h
+//  NSArray+Tool.h
 //  StringDemo
 //
-//  Created by Rick on 2019/9/4.
+//  Created by Rick on 2019/9/5.
 //  Copyright © 2019 Rick. All rights reserved.
 //
 
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface NSDictionary (Tool)
+@interface NSArray (Tool)
 
 #pragma mark - Property
 
@@ -18,13 +18,13 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - Common
 
-+ (BOOL)isEmptyDictionary:(id)dic;
++ (BOOL)isEmptyArray:(id)array;
 
 #pragma mark - Plist
 
-+ (instancetype)dictionaryWithPlist:(NSString *)plist;
++ (instancetype)arrayWithPlist:(NSString *)plist;
 
-+ (instancetype)dictionaryWithPlist:(NSString *)plist Bundle:(NSString * _Nullable)bundle;
++ (instancetype)arrayWithPlist:(NSString *)plist Bundle:(NSString * _Nullable)bundle;
 
 @end
 

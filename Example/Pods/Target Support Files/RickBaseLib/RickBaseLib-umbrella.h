@@ -10,8 +10,10 @@
 #endif
 #endif
 
+#import "NSArray+Tool.h"
 #import "NSDate+Tool.h"
 #import "NSDictionary+Tool.h"
+#import "NSObject+Tool.h"
 #import "NSString+Tool.h"
 
 FOUNDATION_EXPORT double RickBaseLibVersionNumber;

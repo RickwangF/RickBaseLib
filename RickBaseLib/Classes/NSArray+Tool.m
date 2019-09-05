@@ -1,15 +1,15 @@
 //
-//  NSDictionary+Tool.m
+//  NSArray+Tool.m
 //  StringDemo
 //
-//  Created by Rick on 2019/9/4.
+//  Created by Rick on 2019/9/5.
 //  Copyright © 2019 Rick. All rights reserved.
 //
 
-#import "NSDictionary+Tool.h"
+#import "NSArray+Tool.h"
 #import "NSString+Tool.h"
 
-@implementation NSDictionary (Tool)
+@implementation NSArray (Tool)
 
 #pragma mark - Property Get
 
@@ -31,13 +31,12 @@
 
 #pragma mark - Common
 
-+ (BOOL)isEmptyDictionary:(id)dic{
-    if (dic == nil || dic == [NSNull null] || ![dic isKindOfClass:NSDictionary.class]) {
++ (BOOL)isEmptyArray:(id)array{
+    if (array == nil || array == [NSNull null] || ![array isKindOfClass:NSArray.class]) {
         return YES;
     }
     
-    NSDictionary *dictionary = (NSDictionary *)dic;
-    if (dictionary.count == 0) {
+    if ([(NSArray*)array count] == 0) {
         return YES;
     }
     
@@ -46,13 +45,13 @@
 
 #pragma mark - Plist
 
-+ (instancetype)dictionaryWithPlist:(NSString *)plist{
-    return [self dictionaryWithPlist:plist Bundle:nil];
++ (instancetype)arrayWithPlist:(NSString *)plist{
+    return [self arrayWithPlist:plist Bundle:nil];
 }
 
-+ (instancetype)dictionaryWithPlist:(NSString *)plist Bundle:(NSString * _Nullable)bundle{
++ (instancetype)arrayWithPlist:(NSString *)plist Bundle:(NSString * _Nullable)bundle{
     if ([NSString isEmptyString:plist]) {
-        return [NSDictionary dictionary];
+        return [NSArray array];
     }
     
     NSString *path;
@@ -65,11 +64,11 @@
     }
     
     if (![[NSFileManager defaultManager] fileExistsAtPath:path]) {
-        return [NSDictionary dictionary];
+        return [NSArray array];;
     }
     
-    NSDictionary *dic = [NSDictionary dictionaryWithContentsOfFile:path];
-    return dic;
+    NSArray *array = [NSArray arrayWithContentsOfFile:path];
+    return array;
 }
 
 @end
