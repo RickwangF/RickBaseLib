@@ -1,5 +1,5 @@
 PODS:
-  - RickBaseLib (0.0.2)
+  - RickBaseLib (0.0.3)
 
 DEPENDENCIES:
   - RickBaseLib (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RickBaseLib: 39ea5a219aca445d8dcc4c8583becba6138ddf4f
+  RickBaseLib: f2808fe42cd8f26fd7a528bb36f2fb674fa4f320
 
 PODFILE CHECKSUM: 020618d785f5afac011e187660e06e1da2ebfa5c
 

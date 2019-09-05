@@ -15,6 +15,7 @@
 #import "NSDictionary+Tool.h"
 #import "NSObject+Tool.h"
 #import "NSString+Tool.h"
+#import "RickBaseLib.h"
 
 FOUNDATION_EXPORT double RickBaseLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char RickBaseLibVersionString[];
