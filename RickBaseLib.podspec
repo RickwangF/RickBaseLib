@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RickBaseLib'
-  s.version          = '0.0.3'
+  s.version          = '0.0.4'
   s.summary          = 'iOS Project Base Library'
 
 # This description is used to generate tags and improve search results.
