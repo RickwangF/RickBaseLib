@@ -13,7 +13,7 @@
 
 #pragma mark - Property Get
 
-- (NSString *)jsonString{
+- (NSString * _Nullable)jsonString{
     if (![NSJSONSerialization isValidJSONObject:self]) {
         return nil;
     }

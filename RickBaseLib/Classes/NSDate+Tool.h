@@ -1,6 +1,6 @@
 //
 //  NSDate+Tool.h
-//  RickBaseLib
+//  BaseLib
 //
 //  Created by Rick on 2019/9/2.
 //  Copyright © 2019 Rick. All rights reserved.
@@ -52,7 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - String To Date
 
-+ (NSDate *)dateFromDateString:(NSString *)string WithFormatter:(NSDateFormatter*)formatter;
++ (NSDate * _Nullable)dateFromDateString:(NSString *)string WithFormatter:(NSDateFormatter*)formatter;
 
 #pragma mark - Date To String
 
@@ -66,19 +66,19 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - Calculate
 
-- (NSDate *)dateByAddingYears:(NSInteger)years;
+- (NSDate * _Nullable)dateByAddingYears:(NSInteger)years;
 
-- (NSDate *)dateByAddingMonths:(NSInteger)months;
+- (NSDate * _Nullable)dateByAddingMonths:(NSInteger)months;
 
-- (NSDate *)dateByAddingWeeks:(NSInteger)weeks;
+- (NSDate * _Nullable)dateByAddingWeeks:(NSInteger)weeks;
 
-- (NSDate *)dateByAddingDays:(NSInteger)days;
+- (NSDate * _Nullable)dateByAddingDays:(NSInteger)days;
 
-- (NSDate *)dateByAddingHours:(NSInteger)hours;
+- (NSDate * _Nullable)dateByAddingHours:(NSInteger)hours;
 
-- (NSDate *)dateByAddingMinutes:(NSInteger)minutes;
+- (NSDate * _Nullable)dateByAddingMinutes:(NSInteger)minutes;
 
-- (NSDate *)dateByAddingSeconds:(NSInteger)seconds;
+- (NSDate * _Nullable)dateByAddingSeconds:(NSInteger)seconds;
 
 #pragma mark - Judge
 

@@ -38,7 +38,6 @@
 - (CGSize)sizeWithFont:(UIFont *)font
               MaxWidth:(CGFloat)maxWidth
          ParagrahStyle:(NSParagraphStyle * __nullable)style{
-    
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc] initWithString:self];
     if (style == nil || ![style isKindOfClass:NSParagraphStyle.class]) {
         NSMutableParagraphStyle *mutableStyle = [[NSMutableParagraphStyle alloc] init];
@@ -98,7 +97,7 @@
     
 #pragma mark - Encode
     
-- (NSString *)URLEncode{
+- (NSString * _Nullable)URLEncode{
     static NSString * const kAFCharactersGeneralDelimitersToEncode = @":#[]@"; // does not include "?" or "/" due to RFC 3986 - Section 3.4
     static NSString * const kAFCharactersSubDelimitersToEncode = @"!$&'()*+,;=";
     
@@ -123,58 +122,58 @@
     return [escaped copy];
 }
     
-- (NSString *)urlEncodedString{
+- (NSString * _Nullable)urlEncodedString{
     return [self URLEncode];
 }
     
-- (NSString *)URLDecode{
+- (NSString * _Nullable)URLDecode{
     return [self stringByRemovingPercentEncoding];
 }
     
-- (NSString *)urlDecodedString{
+- (NSString * _Nullable)urlDecodedString{
     return [self URLDecode];
 }
 
-- (NSString *)base64Encode{
+- (NSString * _Nullable)base64Encode{
     NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
     NSString *string = [data base64EncodedStringWithOptions:NSDataBase64Encoding64CharacterLineLength];
     return string;
 }
 
-- (NSString *)base64EncodedString{
+- (NSString * _Nullable)base64EncodedString{
     return [self base64Encode];
 }
 
-- (NSString *)base64Decode{
+- (NSString * _Nullable)base64Decode{
     NSData *data = [[NSData alloc] initWithBase64EncodedString:self options:NSDataBase64DecodingIgnoreUnknownCharacters];
     NSString *string = [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
     return string;
 }
 
-- (NSString *)base64DecodedString{
+- (NSString * _Nullable)base64DecodedString{
     return [self base64Decode];
 }
     
 #pragma mark - URL
     
-- (NSURL *)urlForItself{
+- (NSURL * _Nullable)urlForItself{
     return [NSURL URLWithString:self];
 }
     
-- (NSURL *)url{
+- (NSURL * _Nullable)url{
     return [self urlForItself];
 }
     
 #pragma mark - JSON
     
-- (id)deserializeJSONString{
+- (id _Nullable)deserializeJSONString{
     NSData *data = [self dataUsingEncoding:NSUTF8StringEncoding];
     return [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingMutableContainers error:nil];
 }
     
 #pragma mark - Encrypt
 
-- (NSString *)md5Encrpt{
+- (NSString * _Nullable)md5Encrpt{
     if ([NSString isEmptyString:self]) {
         return nil;
     }
@@ -188,7 +187,7 @@
     return [ms copy];
 }
 
-- (NSString *)md5String{
+- (NSString * _Nullable)md5String{
     return [self md5Encrpt];
 }
     
@@ -202,14 +201,14 @@
 
 #pragma mark - Date
 
-- (NSDate *)dateFromString{
+- (NSDate * _Nullable)dateFromString{
     NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
     formatter.dateFormat = @"yyyy-MM-dd HH:mm:ss";
     NSDate* date = [formatter dateFromString:self];
     return date;
 }
 
-- (NSDate *)dateStringWithFormatter:(NSDateFormatter *)formatter{
+- (NSDate * _Nullable)dateStringWithFormatter:(NSDateFormatter *)formatter{
     if (formatter == nil || ![formatter isKindOfClass:NSDateFormatter.class]) {
         return nil;
     }

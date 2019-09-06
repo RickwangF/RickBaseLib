@@ -13,7 +13,7 @@
 
 #pragma mark - Common
 
-+ (BOOL)isNil:(id)obj{
++ (BOOL)isNull:(id)obj{
     if (obj == nil || obj == [NSNull null]) {
         return YES;
     }

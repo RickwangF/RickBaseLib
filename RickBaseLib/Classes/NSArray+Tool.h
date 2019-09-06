@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - Property
 
-@property (nonatomic, copy, readonly) NSString *jsonString;
+@property (nonatomic, copy, readonly) NSString* _Nullable jsonString;
 
 #pragma mark - Common
 

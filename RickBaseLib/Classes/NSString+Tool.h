@@ -19,27 +19,38 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly) NSString* trimmedString;
     
 /// URL编码的字符串
-@property (nonatomic, copy, readonly) NSString* urlEncodedString;
+@property (nonatomic, copy, readonly) NSString* _Nullable urlEncodedString;
 
 /// 经过URL解码的字符串
-@property (nonatomic, copy, readonly) NSString* urlDecodedString;
+@property (nonatomic, copy, readonly) NSString* _Nullable urlDecodedString;
 
 /// 经过base64编码的字符串
-@property (nonatomic, copy, readonly) NSString* base64EncodedString;
+@property (nonatomic, copy, readonly) NSString* _Nullable base64EncodedString;
 
 /// base64解码之后的字符串
-@property (nonatomic, copy, readonly) NSString* base64DecodedString;
+@property (nonatomic, copy, readonly) NSString* _Nullable base64DecodedString;
 
 /// 字符串对应的NSURL对象
-@property (nonatomic, strong, readonly) NSURL* url;
+@property (nonatomic, strong, readonly) NSURL* _Nullable url;
 
 /// 字符串对应的MD5加密后的字符串
-@property (nonatomic, copy, readonly) NSString* md5String;
+@property (nonatomic, copy, readonly) NSString* _Nullable md5String;
     
 #pragma mark - Util
-    
+
+/**
+ NSString 专用的判断字符串是否为空的方法
+ 
+ @param string 字符串对象
+ @return 是否为空的结果
+ */
 + (BOOL)isEmptyString:(id)string;
 
+/**
+ 获取新的UUID的方法
+ 
+ @return 新的UUID
+ */
 + (instancetype)newUUID;
     
 #pragma mark - Size
@@ -75,25 +86,25 @@ NS_ASSUME_NONNULL_BEGIN
     
 #pragma mark - Encode
     
-- (NSString *)URLEncode;
+- (NSString * _Nullable)URLEncode;
     
-- (NSString *)URLDecode;
+- (NSString * _Nullable)URLDecode;
 
-- (NSString *)base64Encode;
+- (NSString * _Nullable)base64Encode;
 
-- (NSString *)base64Decode;
+- (NSString * _Nullable)base64Decode;
     
 #pragma mark - URL
     
-- (NSURL *)urlForItself;
+- (NSURL * _Nullable)urlForItself;
     
 #pragma mark - JSON
     
-- (id)deserializeJSONString;
+- (id _Nullable)deserializeJSONString;
     
 #pragma mark - Encrypt
 
-- (NSString *)md5Encrpt;
+- (NSString * _Nullable)md5Encrpt;
     
 #pragma mark - RegExp
     
@@ -101,9 +112,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - Date
 
-- (NSDate *)dateFromString;
+- (NSDate * _Nullable)dateFromString;
 
-- (NSDate *)dateStringWithFormatter:(NSDateFormatter *)formatter;
+- (NSDate * _Nullable)dateStringWithFormatter:(NSDateFormatter *)formatter;
 
 @end
 

@@ -13,5 +13,7 @@
 #import "NSDate+Tool.h"
 #import "NSArray+Tool.h"
 #import "NSDictionary+Tool.h"
+#import "UIColor+Tool.h"
+#import "UIView+Tool.h"
 
 #endif /* RickBaseLib_h */

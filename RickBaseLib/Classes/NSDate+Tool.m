@@ -1,6 +1,6 @@
 //
 //  NSDate+Tool.m
-//  RickBaseLib
+//  BaseLib
 //
 //  Created by Rick on 2019/9/2.
 //  Copyright © 2019 Rick. All rights reserved.
@@ -61,7 +61,7 @@
 
 #pragma mark - String To Date
 
-+ (NSDate *)dateFromDateString:(NSString *)string WithFormatter:(NSDateFormatter*)formatter{
++ (NSDate * _Nullable)dateFromDateString:(NSString *)string WithFormatter:(NSDateFormatter*)formatter{
     if (string == nil || ![string isKindOfClass:NSString.class] || [string isEqualToString:@""]) {
         return nil;
     }
@@ -151,7 +151,7 @@
 
 #pragma mark - Caculate
 
-- (NSDate *)dateByAddingYears:(NSInteger)years{
+- (NSDate * _Nullable)dateByAddingYears:(NSInteger)years{
     NSCalendar *calender = [NSCalendar currentCalendar];
     NSDateComponents *components = [[NSDateComponents alloc] init];
     components.year = years;
@@ -159,7 +159,7 @@
     return date;
 }
 
-- (NSDate *)dateByAddingMonths:(NSInteger)months{
+- (NSDate * _Nullable)dateByAddingMonths:(NSInteger)months{
     NSCalendar *calender = [NSCalendar currentCalendar];
     NSDateComponents *components = [[NSDateComponents alloc] init];
     components.month = months;
@@ -167,7 +167,7 @@
     return date;
 }
 
-- (NSDate *)dateByAddingWeeks:(NSInteger)weeks{
+- (NSDate * _Nullable)dateByAddingWeeks:(NSInteger)weeks{
     NSCalendar *calender = [NSCalendar currentCalendar];
     NSDateComponents *components = [[NSDateComponents alloc] init];
     components.weekOfYear = weeks;
@@ -175,22 +175,22 @@
     return date;
 }
 
-- (NSDate *)dateByAddingDays:(NSInteger)days{
+- (NSDate * _Nullable)dateByAddingDays:(NSInteger)days{
     NSDate *date = [NSDate dateWithTimeInterval:days*24*60*60 sinceDate:self];
     return date;
 }
 
-- (NSDate *)dateByAddingHours:(NSInteger)hours{
+- (NSDate * _Nullable)dateByAddingHours:(NSInteger)hours{
     NSDate *date = [NSDate dateWithTimeInterval:hours*60*60 sinceDate:self];
     return date;
 }
 
-- (NSDate *)dateByAddingMinutes:(NSInteger)minutes{
+- (NSDate * _Nullable)dateByAddingMinutes:(NSInteger)minutes{
     NSDate *date = [NSDate dateWithTimeInterval:minutes*60 sinceDate:self];
     return date;
 }
 
-- (NSDate *)dateByAddingSeconds:(NSInteger)seconds{
+- (NSDate * _Nullable)dateByAddingSeconds:(NSInteger)seconds{
     NSDate *date = [NSDate dateWithTimeInterval:seconds sinceDate:self];
     return date;
 }

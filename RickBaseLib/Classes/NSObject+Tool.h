@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - Common
 
-+ (BOOL)isNil:(id)obj;
++ (BOOL)isNull:(id)obj;
 
 @end
 
