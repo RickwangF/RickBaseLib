@@ -150,4 +150,20 @@
     [UIApplication.sharedApplication.keyWindow addSubview:self];
 }
 
+#pragma mark - Corner Radius
+
+- (void)addCornerRadius:(CGFloat)cornerRadius{
+    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:self.bounds cornerRadius:cornerRadius];
+    CAShapeLayer *maskLayer = [CAShapeLayer layer];
+    [maskLayer setPath:path.CGPath];
+    self.layer.mask = maskLayer;
+}
+
+- (void)addCornerRadius:(CGFloat)cornerRadius WithCorners:(UIRectCorner)corners{
+    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:self.bounds byRoundingCorners:corners cornerRadii:CGSizeMake(cornerRadius, cornerRadius)];
+    CAShapeLayer *maskLayer = [CAShapeLayer layer];
+    [maskLayer setPath:path.CGPath];
+    self.layer.mask = maskLayer;
+}
+
 @end

@@ -36,6 +36,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)addViewToWindow;
 
+#pragma mark - Corner Radius
+
+- (void)addCornerRadius:(CGFloat)cornerRadius;
+
+- (void)addCornerRadius:(CGFloat)cornerRadius WithCorners:(UIRectCorner)corners;
+
 @end
 
 NS_ASSUME_NONNULL_END

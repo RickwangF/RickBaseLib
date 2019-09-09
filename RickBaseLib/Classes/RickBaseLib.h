@@ -15,5 +15,6 @@
 #import "NSDictionary+Tool.h"
 #import "UIColor+Tool.h"
 #import "UIView+Tool.h"
+#import "FrameLayout.h"
 
 #endif /* RickBaseLib_h */
