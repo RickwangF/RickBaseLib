@@ -1,8 +1,9 @@
 //
 //  RickBaseLib.h
-//  Pods
+//  StringDemo
 //
-//  Created by Rick on 2019/9/5.
+//  Created by Rick on 2019/9/9.
+//  Copyright © 2019 Rick. All rights reserved.
 //
 
 #ifndef RickBaseLib_h
@@ -16,5 +17,6 @@
 #import "UIColor+Tool.h"
 #import "UIView+Tool.h"
 #import "FrameLayout.h"
+#import "NSTimer+Tool.h"
 
 #endif /* RickBaseLib_h */

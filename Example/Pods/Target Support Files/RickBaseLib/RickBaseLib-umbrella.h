@@ -16,6 +16,7 @@
 #import "NSDictionary+Tool.h"
 #import "NSObject+Tool.h"
 #import "NSString+Tool.h"
+#import "NSTimer+Tool.h"
 #import "RickBaseLib.h"
 #import "UIColor+Tool.h"
 #import "UIView+Tool.h"
