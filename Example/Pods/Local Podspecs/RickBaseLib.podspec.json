@@ -1,6 +1,6 @@
 {
   "name": "RickBaseLib",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "summary": "iOS Project Base Library",
   "description": "iOS Project Base Library Pod",
   "homepage": "https://github.com/RickwangF/RickBaseLib",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/RickwangF/RickBaseLib.git",
-    "tag": "0.0.6"
+    "tag": "0.0.7"
   },
   "platforms": {
     "ios": "8.0"
