@@ -19,5 +19,6 @@
 #import "FrameLayout.h"
 #import "NSTimer+Tool.h"
 #import "UIDevice+Tool.h"
+#import "UIImage+Tool.h"
 
 #endif /* RickBaseLib_h */

@@ -42,6 +42,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 - (void)addCornerRadius:(CGFloat)cornerRadius WithCorners:(UIRectCorner)corners;
 
+#pragma mark - SnapShot
+
+- (UIImage * _Nullable)snapShot;
+
 @end
 
 NS_ASSUME_NONNULL_END

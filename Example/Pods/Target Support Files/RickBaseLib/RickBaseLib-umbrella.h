@@ -20,6 +20,7 @@
 #import "RickBaseLib.h"
 #import "UIColor+Tool.h"
 #import "UIDevice+Tool.h"
+#import "UIImage+Tool.h"
 #import "UIView+Tool.h"
 
 FOUNDATION_EXPORT double RickBaseLibVersionNumber;

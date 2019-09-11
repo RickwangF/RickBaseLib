@@ -166,4 +166,20 @@
     self.layer.mask = maskLayer;
 }
 
+#pragma mark - SnapShot
+
+- (UIImage * _Nullable)snapShot{
+    UIGraphicsBeginImageContextWithOptions(self.bounds.size, NO, UIScreen.mainScreen.scale);
+    
+    [self drawViewHierarchyInRect:self.bounds afterScreenUpdates:YES];
+    
+    UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
+    UIGraphicsEndImageContext();
+    
+    NSData *imageData = UIImagePNGRepresentation(image);
+    image = [UIImage imageWithData:imageData];
+    
+    return image;
+}
+
 @end
