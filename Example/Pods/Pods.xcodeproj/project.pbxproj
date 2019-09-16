@@ -7,37 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01C87E95BD570B10E504BEF6A36206C7 /* UIDevice+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F1376F4D8CD4D18EAB055399481492 /* UIDevice+Tool.m */; };
-		0CE31848A8666165C32917A9B2DCEFFF /* UIColor+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 69F0A13F40FDFC2F85D79D763F12AF10 /* UIColor+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C65CB023138FC44C19BA60CF5F7F6B0 /* BaseFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6C9E2F74041AEAFAD84B4776F031C89 /* BaseFileManager.m */; };
+		0DF8FE1DAF02304237E4FA42ABF14F16 /* NSTimer+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A35BCD5D8A2011279BDB44B08540134 /* NSTimer+Tool.m */; };
 		0E93A8D3E816EE20CFEF71B87DAF0363 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		1345EC562297A64E6850D19EF5E09062 /* UIColor+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = FB2AE783B2409288E371A42A7F29F06A /* UIColor+Tool.m */; };
-		20D82758672237C9AA6E43FABFCC7D51 /* NSDictionary+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = B7EED45614EB25CCF5039D5A4E77DEE3 /* NSDictionary+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		227BE4EFF0786CA4A607273D9F29E1D9 /* RickBaseLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 272B1BB4A38EDED7AD004C21094A1A5B /* RickBaseLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		252CD86915D48A708125738DEC507C1B /* NSTimer+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D4A6C2CF019FD3FD01E39BF5BFCB581 /* NSTimer+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2A70A5D80F54EA72DCA79F0DB7A86012 /* NSDate+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9906840F85D28177E507F0B8145E573B /* NSDate+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		372F06345B142032983B937106B745E3 /* NSTimer+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF557BFAB7B181AA9675700E229DC46 /* NSTimer+Tool.m */; };
-		3A03CB5291441496BCB573FCC89769F5 /* NSArray+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E232A8E9116A269FD0731F6737A2F73 /* NSArray+Tool.m */; };
-		405080220C3B3CE9D17496588F7CA57E /* NSObject+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D77E67233127321698256A971A08C23 /* NSObject+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4644D968C3732D70704B9D658694FBAC /* UIView+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0671BE6719167672215BF38A1202326F /* UIView+Tool.m */; };
-		5A0DB2D7ED3896C09A083FE10A912F3F /* NSString+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DF6746D608B42EB0141D8F69FCA49CF /* NSString+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21D1B0DDF95E0E57590824B1E21E6931 /* UIImage+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 98D716138AC9D194631C698D113E7F3E /* UIImage+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		235DBF5F81E7B4839DBFE29A8ADA6B38 /* NSArray+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BD45E526081B90F7FE2E4009FBD73C0 /* NSArray+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F29F08696F9E390EC938AB4A4879892 /* NSDictionary+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = A824F3F24894FA9ABA9F0A5F57BCE7E2 /* NSDictionary+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F20A20CB3E28D94E1F1766555B2F8F4 /* NSObject+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 75DE1CEC042B9053364FA26A53A061AF /* NSObject+Tool.m */; };
+		5453B4213A48D682DE3A3D3F1076E129 /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0861095CA71ECDF0E0AE324FE6FFB4B5 /* UIImage+Tool.m */; };
+		59A91133E44A53F8902E3421C5B478F0 /* UIView+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = DE81E5E18EA92EA43248D87946CCAED9 /* UIView+Tool.m */; };
 		5AD1320692FECB9758AE9384FA2B1B5B /* Pods-RickBaseLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FF55033E4BD6A3C8EF869198F6A40ED /* Pods-RickBaseLib_Example-dummy.m */; };
-		65055D7EC5A3119BE38750BC58FB98BD /* UIImage+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 23B42B31B497F735788CC2C7B34C080E /* UIImage+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F01F4B1BD7FA0672EC9A24149A2F284 /* NSDictionary+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 51B6889EBE7B60F994AB9ED8B088AB07 /* NSDictionary+Tool.m */; };
-		7E9FBD51E51B8EC4B8678B44EB3733C1 /* NSObject+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = DD537DEBCEEEA0739462F5A321601AAD /* NSObject+Tool.m */; };
+		65A69719121BF075FAD3FB437421BEE7 /* UIView+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 042429C681D808D7BC7C7D455FCC9C6B /* UIView+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C93EC29D3C2D47212CB069704EA052F /* RickBaseLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 37935E79B50CE326C1D95FED5EDDBABC /* RickBaseLib-dummy.m */; };
+		6D66E923EB252C47C1B6E8514B4A5EC1 /* LibDebug.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ED5F8E4670C218AED96449096EAEF0B /* LibDebug.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C999B80582098F0FA9A365D29111086 /* BaseFileManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 073EB4AEBCB8D417E79F584DF4964C8A /* BaseFileManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D7EBE9B19D9054D303198514B175C83 /* UIDevice+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D836114FEF294EF128347CCB1095AA2 /* UIDevice+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E7BB6CE99844E793DD3A599229E3039 /* RickBaseLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0663B896CA2983DB27B1E43B317EAC62 /* RickBaseLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EFAB570B20E6FAF3172A23FB30C416F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		8CD559ABD00DA1DE419C8AF8B1EDF5A6 /* UIDevice+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = D40062C11EE5F0AFB390AADA63F1DA68 /* UIDevice+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8E1E0218FD3C9662C0B80B15DF5FBFF1 /* Pods-RickBaseLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F80387C371DC8C233C4F31F7B09BB90 /* Pods-RickBaseLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		91AA03A3FAA22146704B589E8A00F0E9 /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC27DE81A5D17CCED94932CA2249F7E /* NSString+Tool.m */; };
+		9247C7556A6D8E574FD545C0C7DDD959 /* NSDate+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B50DD7D2F339634BE986A8A1A4DFB5D /* NSDate+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		97C39E3472C02CA732B7142CCCB65B62 /* Pods-RickBaseLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0494D8BD71671C220DCC6BC1AAA63CA2 /* Pods-RickBaseLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98AF7D80E4C40049A147F02188814B9C /* NSArray+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 09F4FC2ECA671F8DE1F06CD7EF5C8A21 /* NSArray+Tool.m */; };
+		9AAB94DD46A4B03ED9625F49D1B971C6 /* RickBaseLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C3552284ABEC6763532E37E8027826 /* RickBaseLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9EE409D037F92880841650315071DEE0 /* NSObject+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 8ECD229D41CA1FD142386CDEEFEEF9C6 /* NSObject+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A1018A50DB26E30423D2BE5A31733399 /* Pods-RickBaseLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6942AAFF1AF7AA4891382CAB7BD30FB6 /* Pods-RickBaseLib_Tests-dummy.m */; };
-		B820749331E868CEAB13068BA5449A2E /* NSArray+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = E7C85C2F1DCBFAA4CAA890AD6EFBDCF0 /* NSArray+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BFAD83AB0F36D7FD864F0C39D5CD13EC /* UIImage+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 690922A08119CE54462452EB9A87E580 /* UIImage+Tool.m */; };
-		C7750BE991DCB15F137104C6E978AB76 /* RickBaseLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8C90DCBE8578F77133DCC3D48516047 /* RickBaseLib-dummy.m */; };
-		E048EF1E461DCF3D08CCB10C920E1121 /* UIView+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = A258B1D12F82FEE46585EA8B9F13F6E4 /* UIView+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5ED46BB12BFCBC5437D615651A33503 /* RickBaseLib.h in Headers */ = {isa = PBXBuildFile; fileRef = 20D73659EC6E19A520CCED652F6EB685 /* RickBaseLib.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EB325032A066E78E52118865B1CC21DD /* NSDate+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 78C9B7038B77B4902BF8EFBB30CE0752 /* NSDate+Tool.m */; };
-		F5EE940A935E3FC5FE22A150BE74B8CB /* FrameLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 79AD10533FADB950CF780FA4F91D62D0 /* FrameLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FDFE4D8D351BBDACBB52149A1928E8CD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AFFF015211CADB8A0104EDFEA197CAF5 /* NSString+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 588DBC3CFEB2560AB319C3AB5C59DA83 /* NSString+Tool.m */; };
+		B130C6E0FEE7DDDDE3D3961AF09E7ACB /* FrameLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 478A551D32C6C73C672A14931FA6A418 /* FrameLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B13F0D2A0FBD390C0DCE7BC7B67BEB12 /* NSTimer+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EBE80ECB2469600E5E8C915F2646DDB /* NSTimer+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1BB4A273E24B39E07C14CAFC246DC65 /* NSString+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = ECF460E519EB853B73246F01939E224D /* NSString+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B90065ADEA3B79953E01D776B5C0F954 /* UIColor+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F063F73276249A5117B58EECC745A37 /* UIColor+Tool.m */; };
+		C6B95B0DCC4CC9CF112E5187ED1F3DDC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D128D16410715673AECB6328626773DB /* NSDictionary+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = B11C771BB651263A32FAAED66C080AC3 /* NSDictionary+Tool.m */; };
+		DB6FE5E1D9240F6718CD421344B6F060 /* UIDevice+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 43B03E43E621244D700E4FF6E701BBC7 /* UIDevice+Tool.m */; };
+		E305337815B3260F6E0E6D9ABF58D507 /* UIColor+Tool.h in Headers */ = {isa = PBXBuildFile; fileRef = B88B3655FF596CF70BDBA99873DBC6C0 /* UIColor+Tool.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5A184383746C7447BC701D4AD6C2DC7 /* NSDate+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2273C04AC37BBEBE50E0C2792C96702B /* NSDate+Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,59 +61,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		042429C681D808D7BC7C7D455FCC9C6B /* UIView+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Tool.h"; path = "RickBaseLib/Classes/UIView+Tool.h"; sourceTree = "<group>"; };
 		048921C7CB0CD5A22C02E9C0A2754A08 /* Pods-RickBaseLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RickBaseLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0494D8BD71671C220DCC6BC1AAA63CA2 /* Pods-RickBaseLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RickBaseLib_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0671BE6719167672215BF38A1202326F /* UIView+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Tool.m"; path = "RickBaseLib/Classes/UIView+Tool.m"; sourceTree = "<group>"; };
-		0D77E67233127321698256A971A08C23 /* NSObject+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Tool.h"; path = "RickBaseLib/Classes/NSObject+Tool.h"; sourceTree = "<group>"; };
-		146F694FEB8906F6F9EC3CF6FB44740B /* RickBaseLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RickBaseLib.podspec; sourceTree = "<group>"; tabWidth = 2; };
+		0663B896CA2983DB27B1E43B317EAC62 /* RickBaseLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RickBaseLib-umbrella.h"; sourceTree = "<group>"; };
+		073EB4AEBCB8D417E79F584DF4964C8A /* BaseFileManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = BaseFileManager.h; path = RickBaseLib/Classes/BaseFileManager.h; sourceTree = "<group>"; };
+		0861095CA71ECDF0E0AE324FE6FFB4B5 /* UIImage+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Tool.m"; path = "RickBaseLib/Classes/UIImage+Tool.m"; sourceTree = "<group>"; };
+		09F4FC2ECA671F8DE1F06CD7EF5C8A21 /* NSArray+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Tool.m"; path = "RickBaseLib/Classes/NSArray+Tool.m"; sourceTree = "<group>"; };
+		0B50DD7D2F339634BE986A8A1A4DFB5D /* NSDate+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Tool.h"; path = "RickBaseLib/Classes/NSDate+Tool.h"; sourceTree = "<group>"; };
+		1BC1E780D2DA94CE663719FCC75BC7E3 /* RickBaseLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RickBaseLib.xcconfig; sourceTree = "<group>"; };
+		1BD45E526081B90F7FE2E4009FBD73C0 /* NSArray+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Tool.h"; path = "RickBaseLib/Classes/NSArray+Tool.h"; sourceTree = "<group>"; };
+		1F063F73276249A5117B58EECC745A37 /* UIColor+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Tool.m"; path = "RickBaseLib/Classes/UIColor+Tool.m"; sourceTree = "<group>"; };
 		1FF55033E4BD6A3C8EF869198F6A40ED /* Pods-RickBaseLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RickBaseLib_Example-dummy.m"; sourceTree = "<group>"; };
-		20D73659EC6E19A520CCED652F6EB685 /* RickBaseLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RickBaseLib.h; path = RickBaseLib/Classes/RickBaseLib.h; sourceTree = "<group>"; };
-		23B42B31B497F735788CC2C7B34C080E /* UIImage+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Tool.h"; path = "RickBaseLib/Classes/UIImage+Tool.h"; sourceTree = "<group>"; };
-		25FA208FCD0008950B3733E08A640C69 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		272B1BB4A38EDED7AD004C21094A1A5B /* RickBaseLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RickBaseLib-umbrella.h"; sourceTree = "<group>"; };
+		2273C04AC37BBEBE50E0C2792C96702B /* NSDate+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Tool.m"; path = "RickBaseLib/Classes/NSDate+Tool.m"; sourceTree = "<group>"; };
+		2C089D01F0D4EBA668DD9D8F65B59DE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		2D636409F48B3567B7782DDC15DE17BF /* Pods-RickBaseLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RickBaseLib_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2DF6746D608B42EB0141D8F69FCA49CF /* NSString+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Tool.h"; path = "RickBaseLib/Classes/NSString+Tool.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3D94A0E982CEEFC9E2F3E818CCDD0463 /* Pods_RickBaseLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickBaseLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D4A6C2CF019FD3FD01E39BF5BFCB581 /* NSTimer+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+Tool.h"; path = "RickBaseLib/Classes/NSTimer+Tool.h"; sourceTree = "<group>"; };
-		51B6889EBE7B60F994AB9ED8B088AB07 /* NSDictionary+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Tool.m"; path = "RickBaseLib/Classes/NSDictionary+Tool.m"; sourceTree = "<group>"; };
+		37935E79B50CE326C1D95FED5EDDBABC /* RickBaseLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RickBaseLib-dummy.m"; sourceTree = "<group>"; };
+		3D836114FEF294EF128347CCB1095AA2 /* UIDevice+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Tool.h"; path = "RickBaseLib/Classes/UIDevice+Tool.h"; sourceTree = "<group>"; };
+		3D94A0E982CEEFC9E2F3E818CCDD0463 /* Pods_RickBaseLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RickBaseLib_Tests.framework; path = "Pods-RickBaseLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43B03E43E621244D700E4FF6E701BBC7 /* UIDevice+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Tool.m"; path = "RickBaseLib/Classes/UIDevice+Tool.m"; sourceTree = "<group>"; };
+		45C3552284ABEC6763532E37E8027826 /* RickBaseLib.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RickBaseLib.h; path = RickBaseLib/Classes/RickBaseLib.h; sourceTree = "<group>"; };
+		478A551D32C6C73C672A14931FA6A418 /* FrameLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FrameLayout.h; path = RickBaseLib/Classes/FrameLayout.h; sourceTree = "<group>"; };
+		5265AFD8C37CB3A8C0FDE809EB4A995F /* RickBaseLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RickBaseLib-Info.plist"; sourceTree = "<group>"; };
+		588DBC3CFEB2560AB319C3AB5C59DA83 /* NSString+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Tool.m"; path = "RickBaseLib/Classes/NSString+Tool.m"; sourceTree = "<group>"; };
+		5ADCE7F2E68A85C984C52544D200AAC0 /* RickBaseLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RickBaseLib-prefix.pch"; sourceTree = "<group>"; };
 		5BC3F1B6127A85811A100DB408555403 /* Pods-RickBaseLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RickBaseLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		690922A08119CE54462452EB9A87E580 /* UIImage+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Tool.m"; path = "RickBaseLib/Classes/UIImage+Tool.m"; sourceTree = "<group>"; };
 		6942AAFF1AF7AA4891382CAB7BD30FB6 /* Pods-RickBaseLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RickBaseLib_Tests-dummy.m"; sourceTree = "<group>"; };
-		69F0A13F40FDFC2F85D79D763F12AF10 /* UIColor+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Tool.h"; path = "RickBaseLib/Classes/UIColor+Tool.h"; sourceTree = "<group>"; };
-		6DF557BFAB7B181AA9675700E229DC46 /* NSTimer+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+Tool.m"; path = "RickBaseLib/Classes/NSTimer+Tool.m"; sourceTree = "<group>"; };
-		6E53FD4869F1B1F84E8B8AE80FA159FA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		77601D0DD01263CD39164E1CC4E23F32 /* RickBaseLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RickBaseLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		78C9B7038B77B4902BF8EFBB30CE0752 /* NSDate+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Tool.m"; path = "RickBaseLib/Classes/NSDate+Tool.m"; sourceTree = "<group>"; };
-		79AD10533FADB950CF780FA4F91D62D0 /* FrameLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FrameLayout.h; path = RickBaseLib/Classes/FrameLayout.h; sourceTree = "<group>"; };
+		75DE1CEC042B9053364FA26A53A061AF /* NSObject+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Tool.m"; path = "RickBaseLib/Classes/NSObject+Tool.m"; sourceTree = "<group>"; };
+		77601D0DD01263CD39164E1CC4E23F32 /* RickBaseLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RickBaseLib.framework; path = RickBaseLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FA8116E1C0EC649DC91756645D5C6E9 /* Pods-RickBaseLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RickBaseLib_Example-frameworks.sh"; sourceTree = "<group>"; };
-		84FAA6BBF015F712F058306BF0598935 /* RickBaseLib-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RickBaseLib-Info.plist"; sourceTree = "<group>"; };
 		8B14896D1193AAFB4D35C52982382120 /* Pods-RickBaseLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RickBaseLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		8D5B97893AD6950595BBD5C6143708F3 /* Pods-RickBaseLib_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RickBaseLib_Tests-Info.plist"; sourceTree = "<group>"; };
 		8D78A1A3DE0F3AA6D46B2AA38A9FA589 /* Pods-RickBaseLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RickBaseLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		8E232A8E9116A269FD0731F6737A2F73 /* NSArray+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Tool.m"; path = "RickBaseLib/Classes/NSArray+Tool.m"; sourceTree = "<group>"; };
+		8ECD229D41CA1FD142386CDEEFEEF9C6 /* NSObject+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Tool.h"; path = "RickBaseLib/Classes/NSObject+Tool.h"; sourceTree = "<group>"; };
+		8ED5F8E4670C218AED96449096EAEF0B /* LibDebug.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LibDebug.h; path = RickBaseLib/Classes/LibDebug.h; sourceTree = "<group>"; };
 		8F80387C371DC8C233C4F31F7B09BB90 /* Pods-RickBaseLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RickBaseLib_Example-umbrella.h"; sourceTree = "<group>"; };
 		90B5E3A2427CF0669F7BC4A970F9C4F8 /* Pods-RickBaseLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RickBaseLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9906840F85D28177E507F0B8145E573B /* NSDate+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Tool.h"; path = "RickBaseLib/Classes/NSDate+Tool.h"; sourceTree = "<group>"; };
-		99304FFFE7AB051D86C27CBF49CF2A53 /* RickBaseLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RickBaseLib.xcconfig; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A258B1D12F82FEE46585EA8B9F13F6E4 /* UIView+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Tool.h"; path = "RickBaseLib/Classes/UIView+Tool.h"; sourceTree = "<group>"; };
-		A36AD9FE9F365AB2298B9A904513DFA2 /* RickBaseLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RickBaseLib.modulemap; sourceTree = "<group>"; };
-		B7EED45614EB25CCF5039D5A4E77DEE3 /* NSDictionary+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Tool.h"; path = "RickBaseLib/Classes/NSDictionary+Tool.h"; sourceTree = "<group>"; };
-		B8C90DCBE8578F77133DCC3D48516047 /* RickBaseLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RickBaseLib-dummy.m"; sourceTree = "<group>"; };
-		BCC27DE81A5D17CCED94932CA2249F7E /* NSString+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Tool.m"; path = "RickBaseLib/Classes/NSString+Tool.m"; sourceTree = "<group>"; };
+		98D716138AC9D194631C698D113E7F3E /* UIImage+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Tool.h"; path = "RickBaseLib/Classes/UIImage+Tool.h"; sourceTree = "<group>"; };
+		9A35BCD5D8A2011279BDB44B08540134 /* NSTimer+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+Tool.m"; path = "RickBaseLib/Classes/NSTimer+Tool.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EBE80ECB2469600E5E8C915F2646DDB /* NSTimer+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+Tool.h"; path = "RickBaseLib/Classes/NSTimer+Tool.h"; sourceTree = "<group>"; };
+		A824F3F24894FA9ABA9F0A5F57BCE7E2 /* NSDictionary+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+Tool.h"; path = "RickBaseLib/Classes/NSDictionary+Tool.h"; sourceTree = "<group>"; };
+		A99C8CBCA4CB26427C44970A7543F13E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		AE758A463E8C3D97B0FD3D539F507937 /* RickBaseLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RickBaseLib.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B11C771BB651263A32FAAED66C080AC3 /* NSDictionary+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+Tool.m"; path = "RickBaseLib/Classes/NSDictionary+Tool.m"; sourceTree = "<group>"; };
+		B88B3655FF596CF70BDBA99873DBC6C0 /* UIColor+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Tool.h"; path = "RickBaseLib/Classes/UIColor+Tool.h"; sourceTree = "<group>"; };
 		CC1ECE968C0035BB6FACF1A9ED6BA5B2 /* Pods-RickBaseLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RickBaseLib_Tests.modulemap"; sourceTree = "<group>"; };
-		D40062C11EE5F0AFB390AADA63F1DA68 /* UIDevice+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIDevice+Tool.h"; path = "RickBaseLib/Classes/UIDevice+Tool.h"; sourceTree = "<group>"; };
-		D7706E6938AD8C891FDDB643EE382232 /* Pods_RickBaseLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RickBaseLib_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9F1376F4D8CD4D18EAB055399481492 /* UIDevice+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIDevice+Tool.m"; path = "RickBaseLib/Classes/UIDevice+Tool.m"; sourceTree = "<group>"; };
-		DD537DEBCEEEA0739462F5A321601AAD /* NSObject+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Tool.m"; path = "RickBaseLib/Classes/NSObject+Tool.m"; sourceTree = "<group>"; };
+		D32BDE8061562AED70E3D77A8B872119 /* RickBaseLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RickBaseLib.modulemap; sourceTree = "<group>"; };
+		D6C9E2F74041AEAFAD84B4776F031C89 /* BaseFileManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = BaseFileManager.m; path = RickBaseLib/Classes/BaseFileManager.m; sourceTree = "<group>"; };
+		D7706E6938AD8C891FDDB643EE382232 /* Pods_RickBaseLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RickBaseLib_Example.framework; path = "Pods-RickBaseLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE81E5E18EA92EA43248D87946CCAED9 /* UIView+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Tool.m"; path = "RickBaseLib/Classes/UIView+Tool.m"; sourceTree = "<group>"; };
 		E18E12B1104B2BE1359BED953E7053C3 /* Pods-RickBaseLib_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RickBaseLib_Example-Info.plist"; sourceTree = "<group>"; };
 		E2FC25E7E87F0D97BBD60244B158829C /* Pods-RickBaseLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RickBaseLib_Example.modulemap"; sourceTree = "<group>"; };
 		E68F34070D8BE1063AD4494B801C2DDF /* Pods-RickBaseLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RickBaseLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		E7C85C2F1DCBFAA4CAA890AD6EFBDCF0 /* NSArray+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Tool.h"; path = "RickBaseLib/Classes/NSArray+Tool.h"; sourceTree = "<group>"; };
 		EB6616627E212A3E7344B5E8259DB9A1 /* Pods-RickBaseLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RickBaseLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		F1D46B61B7C1EC11883D1A20F085A81A /* RickBaseLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RickBaseLib-prefix.pch"; sourceTree = "<group>"; };
-		FB2AE783B2409288E371A42A7F29F06A /* UIColor+Tool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Tool.m"; path = "RickBaseLib/Classes/UIColor+Tool.m"; sourceTree = "<group>"; };
+		ECF460E519EB853B73246F01939E224D /* NSString+Tool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Tool.h"; path = "RickBaseLib/Classes/NSString+Tool.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +128,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		333E0D53F2F9D3913011CDBA88F986E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6B95B0DCC4CC9CF112E5187ED1F3DDC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		34477686A87117A4292953AEF1B8BB69 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -130,17 +144,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		640EB1299DD20471D4E75F689778DDD8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				FDFE4D8D351BBDACBB52149A1928E8CD /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		035613738148A90AECE2561E0ACD446E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D32BDE8061562AED70E3D77A8B872119 /* RickBaseLib.modulemap */,
+				1BC1E780D2DA94CE663719FCC75BC7E3 /* RickBaseLib.xcconfig */,
+				37935E79B50CE326C1D95FED5EDDBABC /* RickBaseLib-dummy.m */,
+				5265AFD8C37CB3A8C0FDE809EB4A995F /* RickBaseLib-Info.plist */,
+				5ADCE7F2E68A85C984C52544D200AAC0 /* RickBaseLib-prefix.pch */,
+				0663B896CA2983DB27B1E43B317EAC62 /* RickBaseLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RickBaseLib";
+			sourceTree = "<group>";
+		};
 		2555AE557EC83C6FD9C083DECE106D42 /* Pods-RickBaseLib_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -165,56 +185,6 @@
 				77601D0DD01263CD39164E1CC4E23F32 /* RickBaseLib.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		35D319354301FD1066B3699575B3A4A1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5BBA088795A8F767170838401E60ECBB /* RickBaseLib */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3627839AA66243E522EB0645D8ABDF3D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				6E53FD4869F1B1F84E8B8AE80FA159FA /* LICENSE */,
-				25FA208FCD0008950B3733E08A640C69 /* README.md */,
-				146F694FEB8906F6F9EC3CF6FB44740B /* RickBaseLib.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		5BBA088795A8F767170838401E60ECBB /* RickBaseLib */ = {
-			isa = PBXGroup;
-			children = (
-				79AD10533FADB950CF780FA4F91D62D0 /* FrameLayout.h */,
-				E7C85C2F1DCBFAA4CAA890AD6EFBDCF0 /* NSArray+Tool.h */,
-				8E232A8E9116A269FD0731F6737A2F73 /* NSArray+Tool.m */,
-				9906840F85D28177E507F0B8145E573B /* NSDate+Tool.h */,
-				78C9B7038B77B4902BF8EFBB30CE0752 /* NSDate+Tool.m */,
-				B7EED45614EB25CCF5039D5A4E77DEE3 /* NSDictionary+Tool.h */,
-				51B6889EBE7B60F994AB9ED8B088AB07 /* NSDictionary+Tool.m */,
-				0D77E67233127321698256A971A08C23 /* NSObject+Tool.h */,
-				DD537DEBCEEEA0739462F5A321601AAD /* NSObject+Tool.m */,
-				2DF6746D608B42EB0141D8F69FCA49CF /* NSString+Tool.h */,
-				BCC27DE81A5D17CCED94932CA2249F7E /* NSString+Tool.m */,
-				4D4A6C2CF019FD3FD01E39BF5BFCB581 /* NSTimer+Tool.h */,
-				6DF557BFAB7B181AA9675700E229DC46 /* NSTimer+Tool.m */,
-				20D73659EC6E19A520CCED652F6EB685 /* RickBaseLib.h */,
-				69F0A13F40FDFC2F85D79D763F12AF10 /* UIColor+Tool.h */,
-				FB2AE783B2409288E371A42A7F29F06A /* UIColor+Tool.m */,
-				D40062C11EE5F0AFB390AADA63F1DA68 /* UIDevice+Tool.h */,
-				D9F1376F4D8CD4D18EAB055399481492 /* UIDevice+Tool.m */,
-				23B42B31B497F735788CC2C7B34C080E /* UIImage+Tool.h */,
-				690922A08119CE54462452EB9A87E580 /* UIImage+Tool.m */,
-				A258B1D12F82FEE46585EA8B9F13F6E4 /* UIView+Tool.h */,
-				0671BE6719167672215BF38A1202326F /* UIView+Tool.m */,
-				3627839AA66243E522EB0645D8ABDF3D /* Pod */,
-				97E5728C909627F5DC731F81687DA715 /* Support Files */,
-			);
-			name = RickBaseLib;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		7BA3504660CD1B894EBBC46BA43471F8 /* Targets Support Files */ = {
@@ -243,18 +213,12 @@
 			path = "Target Support Files/Pods-RickBaseLib_Example";
 			sourceTree = "<group>";
 		};
-		97E5728C909627F5DC731F81687DA715 /* Support Files */ = {
+		AC14C4FF1021C9D89B992687398971E0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A36AD9FE9F365AB2298B9A904513DFA2 /* RickBaseLib.modulemap */,
-				99304FFFE7AB051D86C27CBF49CF2A53 /* RickBaseLib.xcconfig */,
-				B8C90DCBE8578F77133DCC3D48516047 /* RickBaseLib-dummy.m */,
-				84FAA6BBF015F712F058306BF0598935 /* RickBaseLib-Info.plist */,
-				F1D46B61B7C1EC11883D1A20F085A81A /* RickBaseLib-prefix.pch */,
-				272B1BB4A38EDED7AD004C21094A1A5B /* RickBaseLib-umbrella.h */,
+				E3422DBE135F317A561D44AEDE7D7799 /* RickBaseLib */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RickBaseLib";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -269,7 +233,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				35D319354301FD1066B3699575B3A4A1 /* Development Pods */,
+				AC14C4FF1021C9D89B992687398971E0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				2821D026D31CB80B1AEEB456D6A165E8 /* Products */,
 				7BA3504660CD1B894EBBC46BA43471F8 /* Targets Support Files */,
@@ -282,6 +246,51 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3422DBE135F317A561D44AEDE7D7799 /* RickBaseLib */ = {
+			isa = PBXGroup;
+			children = (
+				073EB4AEBCB8D417E79F584DF4964C8A /* BaseFileManager.h */,
+				D6C9E2F74041AEAFAD84B4776F031C89 /* BaseFileManager.m */,
+				478A551D32C6C73C672A14931FA6A418 /* FrameLayout.h */,
+				8ED5F8E4670C218AED96449096EAEF0B /* LibDebug.h */,
+				1BD45E526081B90F7FE2E4009FBD73C0 /* NSArray+Tool.h */,
+				09F4FC2ECA671F8DE1F06CD7EF5C8A21 /* NSArray+Tool.m */,
+				0B50DD7D2F339634BE986A8A1A4DFB5D /* NSDate+Tool.h */,
+				2273C04AC37BBEBE50E0C2792C96702B /* NSDate+Tool.m */,
+				A824F3F24894FA9ABA9F0A5F57BCE7E2 /* NSDictionary+Tool.h */,
+				B11C771BB651263A32FAAED66C080AC3 /* NSDictionary+Tool.m */,
+				8ECD229D41CA1FD142386CDEEFEEF9C6 /* NSObject+Tool.h */,
+				75DE1CEC042B9053364FA26A53A061AF /* NSObject+Tool.m */,
+				ECF460E519EB853B73246F01939E224D /* NSString+Tool.h */,
+				588DBC3CFEB2560AB319C3AB5C59DA83 /* NSString+Tool.m */,
+				9EBE80ECB2469600E5E8C915F2646DDB /* NSTimer+Tool.h */,
+				9A35BCD5D8A2011279BDB44B08540134 /* NSTimer+Tool.m */,
+				45C3552284ABEC6763532E37E8027826 /* RickBaseLib.h */,
+				B88B3655FF596CF70BDBA99873DBC6C0 /* UIColor+Tool.h */,
+				1F063F73276249A5117B58EECC745A37 /* UIColor+Tool.m */,
+				3D836114FEF294EF128347CCB1095AA2 /* UIDevice+Tool.h */,
+				43B03E43E621244D700E4FF6E701BBC7 /* UIDevice+Tool.m */,
+				98D716138AC9D194631C698D113E7F3E /* UIImage+Tool.h */,
+				0861095CA71ECDF0E0AE324FE6FFB4B5 /* UIImage+Tool.m */,
+				042429C681D808D7BC7C7D455FCC9C6B /* UIView+Tool.h */,
+				DE81E5E18EA92EA43248D87946CCAED9 /* UIView+Tool.m */,
+				F30B86F6C382914DE94724D965EF3FDE /* Pod */,
+				035613738148A90AECE2561E0ACD446E /* Support Files */,
+			);
+			name = RickBaseLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F30B86F6C382914DE94724D965EF3FDE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A99C8CBCA4CB26427C44970A7543F13E /* LICENSE */,
+				2C089D01F0D4EBA668DD9D8F65B59DE4 /* README.md */,
+				AE758A463E8C3D97B0FD3D539F507937 /* RickBaseLib.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,23 +312,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5819914354444EE60481F306EE4AAFE /* Headers */ = {
+		D27EA25B34340056BCA2D6EFF7543AEF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F5EE940A935E3FC5FE22A150BE74B8CB /* FrameLayout.h in Headers */,
-				B820749331E868CEAB13068BA5449A2E /* NSArray+Tool.h in Headers */,
-				2A70A5D80F54EA72DCA79F0DB7A86012 /* NSDate+Tool.h in Headers */,
-				20D82758672237C9AA6E43FABFCC7D51 /* NSDictionary+Tool.h in Headers */,
-				405080220C3B3CE9D17496588F7CA57E /* NSObject+Tool.h in Headers */,
-				5A0DB2D7ED3896C09A083FE10A912F3F /* NSString+Tool.h in Headers */,
-				252CD86915D48A708125738DEC507C1B /* NSTimer+Tool.h in Headers */,
-				227BE4EFF0786CA4A607273D9F29E1D9 /* RickBaseLib-umbrella.h in Headers */,
-				E5ED46BB12BFCBC5437D615651A33503 /* RickBaseLib.h in Headers */,
-				0CE31848A8666165C32917A9B2DCEFFF /* UIColor+Tool.h in Headers */,
-				8CD559ABD00DA1DE419C8AF8B1EDF5A6 /* UIDevice+Tool.h in Headers */,
-				65055D7EC5A3119BE38750BC58FB98BD /* UIImage+Tool.h in Headers */,
-				E048EF1E461DCF3D08CCB10C920E1121 /* UIView+Tool.h in Headers */,
+				7C999B80582098F0FA9A365D29111086 /* BaseFileManager.h in Headers */,
+				B130C6E0FEE7DDDDE3D3961AF09E7ACB /* FrameLayout.h in Headers */,
+				6D66E923EB252C47C1B6E8514B4A5EC1 /* LibDebug.h in Headers */,
+				235DBF5F81E7B4839DBFE29A8ADA6B38 /* NSArray+Tool.h in Headers */,
+				9247C7556A6D8E574FD545C0C7DDD959 /* NSDate+Tool.h in Headers */,
+				2F29F08696F9E390EC938AB4A4879892 /* NSDictionary+Tool.h in Headers */,
+				9EE409D037F92880841650315071DEE0 /* NSObject+Tool.h in Headers */,
+				B1BB4A273E24B39E07C14CAFC246DC65 /* NSString+Tool.h in Headers */,
+				B13F0D2A0FBD390C0DCE7BC7B67BEB12 /* NSTimer+Tool.h in Headers */,
+				7E7BB6CE99844E793DD3A599229E3039 /* RickBaseLib-umbrella.h in Headers */,
+				9AAB94DD46A4B03ED9625F49D1B971C6 /* RickBaseLib.h in Headers */,
+				E305337815B3260F6E0E6D9ABF58D507 /* UIColor+Tool.h in Headers */,
+				7D7EBE9B19D9054D303198514B175C83 /* UIDevice+Tool.h in Headers */,
+				21D1B0DDF95E0E57590824B1E21E6931 /* UIImage+Tool.h in Headers */,
+				65A69719121BF075FAD3FB437421BEE7 /* UIView+Tool.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,12 +358,12 @@
 		};
 		5737077B23BB7B6BB4FA3794644E97F5 /* RickBaseLib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D7653DFBAC9D404955FCE286D92E8F6 /* Build configuration list for PBXNativeTarget "RickBaseLib" */;
+			buildConfigurationList = B77A7BAD8DBD4E93C206D38D9A866066 /* Build configuration list for PBXNativeTarget "RickBaseLib" */;
 			buildPhases = (
-				C5819914354444EE60481F306EE4AAFE /* Headers */,
-				CCDE1CD808176802148884D893637239 /* Sources */,
-				640EB1299DD20471D4E75F689778DDD8 /* Frameworks */,
-				667CBE54F9934CA28F7FDFBF2D94E280 /* Resources */,
+				D27EA25B34340056BCA2D6EFF7543AEF /* Headers */,
+				67173CA0E6950D277F4289F28703D1E5 /* Sources */,
+				333E0D53F2F9D3913011CDBA88F986E5 /* Frameworks */,
+				8656414906472CB5EF8DAA7D86C8194B /* Resources */,
 			);
 			buildRules = (
 			);
@@ -425,7 +436,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		667CBE54F9934CA28F7FDFBF2D94E280 /* Resources */ = {
+		8656414906472CB5EF8DAA7D86C8194B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -451,21 +462,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CCDE1CD808176802148884D893637239 /* Sources */ = {
+		67173CA0E6950D277F4289F28703D1E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3A03CB5291441496BCB573FCC89769F5 /* NSArray+Tool.m in Sources */,
-				EB325032A066E78E52118865B1CC21DD /* NSDate+Tool.m in Sources */,
-				6F01F4B1BD7FA0672EC9A24149A2F284 /* NSDictionary+Tool.m in Sources */,
-				7E9FBD51E51B8EC4B8678B44EB3733C1 /* NSObject+Tool.m in Sources */,
-				91AA03A3FAA22146704B589E8A00F0E9 /* NSString+Tool.m in Sources */,
-				372F06345B142032983B937106B745E3 /* NSTimer+Tool.m in Sources */,
-				C7750BE991DCB15F137104C6E978AB76 /* RickBaseLib-dummy.m in Sources */,
-				1345EC562297A64E6850D19EF5E09062 /* UIColor+Tool.m in Sources */,
-				01C87E95BD570B10E504BEF6A36206C7 /* UIDevice+Tool.m in Sources */,
-				BFAD83AB0F36D7FD864F0C39D5CD13EC /* UIImage+Tool.m in Sources */,
-				4644D968C3732D70704B9D658694FBAC /* UIView+Tool.m in Sources */,
+				0C65CB023138FC44C19BA60CF5F7F6B0 /* BaseFileManager.m in Sources */,
+				98AF7D80E4C40049A147F02188814B9C /* NSArray+Tool.m in Sources */,
+				F5A184383746C7447BC701D4AD6C2DC7 /* NSDate+Tool.m in Sources */,
+				D128D16410715673AECB6328626773DB /* NSDictionary+Tool.m in Sources */,
+				4F20A20CB3E28D94E1F1766555B2F8F4 /* NSObject+Tool.m in Sources */,
+				AFFF015211CADB8A0104EDFEA197CAF5 /* NSString+Tool.m in Sources */,
+				0DF8FE1DAF02304237E4FA42ABF14F16 /* NSTimer+Tool.m in Sources */,
+				6C93EC29D3C2D47212CB069704EA052F /* RickBaseLib-dummy.m in Sources */,
+				B90065ADEA3B79953E01D776B5C0F954 /* UIColor+Tool.m in Sources */,
+				DB6FE5E1D9240F6718CD421344B6F060 /* UIDevice+Tool.m in Sources */,
+				5453B4213A48D682DE3A3D3F1076E129 /* UIImage+Tool.m in Sources */,
+				59A91133E44A53F8902E3421C5B478F0 /* UIView+Tool.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -607,7 +619,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -640,37 +653,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		662A3F62F4FB5DD0E16CCD9DFFC8D7C7 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99304FFFE7AB051D86C27CBF49CF2A53 /* RickBaseLib.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/RickBaseLib/RickBaseLib-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/RickBaseLib/RickBaseLib-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/RickBaseLib/RickBaseLib.modulemap";
-				PRODUCT_MODULE_NAME = RickBaseLib;
-				PRODUCT_NAME = RickBaseLib;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -775,9 +757,9 @@
 			};
 			name = Debug;
 		};
-		FFC1803167EBFF06209F405595EF5471 /* Release */ = {
+		B0EAE1AB726C365E19C776526C919858 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 99304FFFE7AB051D86C27CBF49CF2A53 /* RickBaseLib.xcconfig */;
+			baseConfigurationReference = 1BC1E780D2DA94CE663719FCC75BC7E3 /* RickBaseLib.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -807,6 +789,37 @@
 			};
 			name = Release;
 		};
+		C4094F6108D89918E6F5DD8379673212 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BC1E780D2DA94CE663719FCC75BC7E3 /* RickBaseLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RickBaseLib/RickBaseLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RickBaseLib/RickBaseLib-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/RickBaseLib/RickBaseLib.modulemap";
+				PRODUCT_MODULE_NAME = RickBaseLib;
+				PRODUCT_NAME = RickBaseLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -828,20 +841,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D7653DFBAC9D404955FCE286D92E8F6 /* Build configuration list for PBXNativeTarget "RickBaseLib" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				662A3F62F4FB5DD0E16CCD9DFFC8D7C7 /* Debug */,
-				FFC1803167EBFF06209F405595EF5471 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		A7F00A1E277D1E5D542B5C705EC73E67 /* Build configuration list for PBXNativeTarget "Pods-RickBaseLib_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5E0E6E9FE5CEFB7682C2259B245976D7 /* Debug */,
 				6B17AD4C63A1868B5AFB4EE542494907 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B77A7BAD8DBD4E93C206D38D9A866066 /* Build configuration list for PBXNativeTarget "RickBaseLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4094F6108D89918E6F5DD8379673212 /* Debug */,
+				B0EAE1AB726C365E19C776526C919858 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

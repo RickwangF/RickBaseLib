@@ -19,7 +19,7 @@ CGRectCenterMake(CGFloat centerX, CGFloat centerY, CGFloat width, CGFloat height
     CGRect rect;
     rect.origin.x = centerX - width * 0.5;
     rect.origin.y = centerY - height * 0.5;
-   rect.size.width = width; rect.size.height = height;
+    rect.size.width = width; rect.size.height = height;
     return rect;
 }
 

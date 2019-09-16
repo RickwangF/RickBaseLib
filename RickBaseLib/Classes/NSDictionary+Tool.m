@@ -46,11 +46,11 @@
 
 #pragma mark - Plist
 
-+ (instancetype)dictionaryWithPlist:(NSString *)plist{
++ (instancetype _Nullable)dictionaryWithPlist:(NSString *)plist{
     return [self dictionaryWithPlist:plist Bundle:nil];
 }
 
-+ (instancetype)dictionaryWithPlist:(NSString *)plist Bundle:(NSString * _Nullable)bundle{
++ (instancetype _Nullable)dictionaryWithPlist:(NSString *)plist Bundle:(NSString * _Nullable)bundle{
     if ([NSString isEmptyString:plist]) {
         return [NSDictionary dictionary];
     }

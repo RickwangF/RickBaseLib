@@ -22,9 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 #pragma mark - Plist
 
-+ (instancetype)dictionaryWithPlist:(NSString *)plist;
++ (instancetype _Nullable)dictionaryWithPlist:(NSString *)plist;
 
-+ (instancetype)dictionaryWithPlist:(NSString *)plist Bundle:(NSString * _Nullable)bundle;
++ (instancetype _Nullable)dictionaryWithPlist:(NSString *)plist Bundle:(NSString * _Nullable)bundle;
 
 @end
 

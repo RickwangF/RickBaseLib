@@ -63,6 +63,8 @@
     return image;
 }
 
+#pragma mark - Mask
+
 - (UIImage * _Nullable)maskWithImage:(UIImage *)image{
     CGContextRef context;
     CGColorSpaceRef colorSpace;
@@ -84,6 +86,6 @@
     return returnImage;
 }
 
-#pragma mark - Mask
+
 
 @end

@@ -20,5 +20,7 @@
 #import "NSTimer+Tool.h"
 #import "UIDevice+Tool.h"
 #import "UIImage+Tool.h"
+#import "LibDebug.h"
+#import "BaseFileManager.h"
 
 #endif /* RickBaseLib_h */

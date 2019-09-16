@@ -45,11 +45,11 @@
 
 #pragma mark - Plist
 
-+ (instancetype)arrayWithPlist:(NSString *)plist{
++ (instancetype _Nullable)arrayWithPlist:(NSString *)plist{
     return [self arrayWithPlist:plist Bundle:nil];
 }
 
-+ (instancetype)arrayWithPlist:(NSString *)plist Bundle:(NSString * _Nullable)bundle{
++ (instancetype _Nullable)arrayWithPlist:(NSString *)plist Bundle:(NSString * _Nullable)bundle{
     if ([NSString isEmptyString:plist]) {
         return [NSArray array];
     }
